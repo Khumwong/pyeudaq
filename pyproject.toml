@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyeudaq"
+version = "2.0.1"
+description = "Python bindings for EUDAQ2 data acquisition framework"
+readme = "README.md"
+requires-python = ">=3.6"
+license = {text = "EUPL-1.1"}
+authors = [
+    {name = "EUDAQ Collaboration", email = "your.email@example.com"},
+]
+keywords = ["eudaq", "data acquisition", "particle physics", "detector"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: European Union Public Licence 1.1 (EUPL 1.1)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = [
+    "numpy>=1.19.0",
+]
+
+[project.urls]
+Homepage = "https://eudaq.github.io/"
+Repository = "https://github.com/eudaq/eudaq"
+Documentation = "https://eudaq.github.io/"
