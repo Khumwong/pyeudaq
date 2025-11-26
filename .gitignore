@@ -2,7 +2,6 @@
 __pycache__/
 *.py[cod]
 *$py.class
-*.so
 *.egg-info/
 dist/
 build/
@@ -16,6 +15,6 @@ build/
 .DS_Store
 Thumbs.db
 
-# Don't ignore the bundled .so files!
-!pyeudaq/pyeudaq.so
+# Keep our bundled libraries!
+!pyeudaq/*.so
 !pyeudaq/lib/*.so*
